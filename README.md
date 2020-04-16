@@ -1,3 +1,15 @@
+---
+title: "PPAR Course  - Haskell Introduction"
+author: [Stefan Sobek]
+date: "2020-04-15"
+subject: "Haskell"
+keywords: [Fontys, Haskell]
+lang: "en"
+titlepage: "true"
+logo: "images/fontyslogo.png"
+titlepage-rule-color: "400070"
+...
+
 # Haskell introduction
 
 This Haskell Workshop is currently part of a course called PPAR - Programming Paradigms of Fontys University of Applied Sciences and is based on the the haskell workshop from two students who prepared it for the ESD - course in Informatics study programme at Fontys Venlo in 2018. Thank you very much [Marco Kull](https://github.com/MarcoKull) and [Jan Evers](https://github.com/Backend-Giraffe). 
@@ -13,8 +25,8 @@ The purpose of this workshop as part of the PPAR course is to give a brief intro
 
 ## Principles of functional programming
 
-> Functional programming is a programming paradigm — a style of building the structure and elements of computer programs — that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data 
-— Wikipedia
+> Functional programming is a programming paradigm a style of building the structure and elements of computer programs that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data 
+> Wikipedia
 
 ![Haskell vs OO](images/haskell-intro.png)
 
@@ -36,14 +48,16 @@ The purpose of this workshop as part of the PPAR course is to give a brief intro
 
 - Function has inputs and an output 
 
-![Input Output example](images/input-output1.png)
+![Inputs and Outputs](images/input-output1.png)
+
 - Output (result) depends on the inputs (parameters)
 - Simple example: 
 
-![input-output2](images/input-output2.png)
+![Simple example](images/input-output2.png)
+
 - Another example: 
 
-![images/input-output3.png](images/input-output3.png)
+![Input and Output other example](images/input-output3.png)
 
 ## What is Haskell?
 
@@ -60,3 +74,29 @@ The purpose of this workshop as part of the PPAR course is to give a brief intro
 ## To infinity and beyond
 
 ![images/inifinity1.png](images/inifinity1.png)
+
+// TODO: infinite loop example
+
+## Where are my loops?
+
+- Remember: imperative vs. declarative style 
+- But how do I work with lists then? 
+    - MAP
+        - Transform elements in a list
+    - FOLD (left, right)
+        - Reduce list to one value
+    - ZIP (with)
+        - Combine elements from two lists
+    - FILTER
+        - Well... removing some elements
+- Do you remember lambda calculus?
+
+// TODO: map example
+
+## Pure functions in Haskell
+
+- All functions take a parameter 
+- All functions must return a value 
+- Anytime a function is called with the same parameter it returns the same value 
+    - *Output depends ONLY on parameters*
+
