@@ -34,7 +34,7 @@ The purpose of this workshop as part of the PPAR course is to give a brief intro
 - Returns same result if given same arguments, also referred as deterministic.
 - It does not cause any observable side effects.  
 - What is then an impure function??? 
-    - Imagine a java class with a field, where the field will be used in a calculation. This field was not passed as parameter to the function!
+    - Imagine a java class with a field, where the field will be used in a calculation. This field was not passed as parameter to the function! The java class has a state which could have influence on the method.
    
 ### No side-effects
 
