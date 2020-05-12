@@ -9,9 +9,16 @@ jobs:
       - uses: actions/checkout@v2
       - run: mkdir output
       - uses: docker://dalibo/pandocker:latest
-        with: # needs a README in your repo root!
+        with: 
           args: "README.md -o output/ppar-haskell-introduction.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
         with:
-          name: ppar-haskell-introduction.pdf
+          name: 01-ppar-haskell-introduction.pdf
+          path: output
+      - uses: docker://dalibo/pandocker:latest
+        with: 
+          args: "preparation.md -o output/ppar-haskell-preparation.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
+      - uses: actions/upload-artifact@master
+        with:
+          name: 02-ppar-haskell-preparation.pdf
           path: output
