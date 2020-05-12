@@ -1,3 +1,17 @@
+---
+
+title: "PPAR Course - Haskell - Preparation"
+author: [Stefan Sobek]
+date: "2020-05-12"
+subject: "Setup your haskell development environment "
+keywords: [Haskell, Fontys]
+lang: "en"
+titlepage: "true"
+logo: "images/fontyslogo.png"
+titlepage-rule-color: "400070"
+
+---
+
 # Preparation
 
 In order to be actively involved in our workshop we ask you to install the Glasgow Haskell Compiler (ghc) and preferably a [Haskell-aware text editor](https://wiki.haskell.org/Editors) in advance.
