@@ -8,7 +8,7 @@ lang: "en"
 titlepage: "true"
 logo: "images/fontyslogo.png"
 titlepage-rule-color: "400070"
-...
+---
 
 
 # Haskell introduction course
