@@ -63,13 +63,13 @@ The Glorious Glasgow Haskell Compilation System, version 8.6.3
 
 This section describes how to create a simple "Hello World!" example to make sure you are ready to go. For convenience those steps are appropriate for any unix-like system, if you are using something inferior you will need to adjust the steps accordingly.
 
-1.  Create a file named hello.hs containing the programm code:
+### Create a file named hello.hs containing the programm code:
 
 nerd version:
    
-    ```bash
-    echo "hello=print(\"Hello ${USER}, thank you for your good preparation.\")" > hello.hs
-    ```
+```bash
+echo "hello=print(\"Hello ${USER}, thank you for your good preparation.\")" > hello.hs
+```
 
 or just put in a file called `hello.hs`the following:
 
@@ -78,18 +78,19 @@ or just put in a file called `hello.hs`the following:
 hello=print("Hello, thank you for your good preparation.")
 ```
 
-2.  Open up the interactive complier:
-    ```bash
-    ghci
-    ```
+### Open up the interactive complier:
 
-3.  Load the hello.hs file. (Tip: you can use autocompletion just as you do in your shell.)
-   
-    ```haskell
-    :l hello.hs
-    ```
+```bash
+ghci
+```
 
-4.  Call the method by typing ```hello```. If you can see the message, get yourself some reward (grab a 🍺 or something). 
+### Load the hello.hs file. (Tip: you can use autocompletion just as you do in your shell.)
+
+```haskell
+:l hello.hs
+```
+
+### Call the method by typing ```hello```. If you can see the message, get yourself some reward (grab a 🍺 or something). 
 
 ![Haskell-first-steps](images/haskell-first-steps.gif)
 
