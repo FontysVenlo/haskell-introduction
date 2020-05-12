@@ -49,8 +49,6 @@ The invitation link to this assignments will be send during the lecture via mail
   - Will be provided in the third lecturing unit. (Third week)
   - **Deadline**: 17th June 2020
 
----
-
 # Principles of functional programming
 
 > Functional programming is a programming paradigm a style of building the structure and elements of computer programs that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data
