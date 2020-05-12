@@ -40,12 +40,12 @@ The invitation link to this assignments will be send during the lecture via mail
 
 **NOTE** you have to do all the assignments, *doing means pushed into your individual github repository*, in order to pass the Haskell part of this course.
 
-- Assignment 1
-  - consists of 6 individual programming exercises you have to do, to get a bit familiar with haskell.
+- **Assignment 1**
+  - consists of **6** individual programming exercises you have to do, to get a bit familiar with haskell.
   - Will be provided in the first lecturing unit. (First week)
   - **Deadline**: 27th May 2020
-- Assignment 2
-  - consist of 1 individual programming assignment
+- **Assignment 2**
+  - consist of **1** individual programming assignment
   - Will be provided in the third lecturing unit. (Third week)
   - **Deadline**: 17th June 2020
 
