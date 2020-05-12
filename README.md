@@ -1,13 +1,15 @@
 ---
+
 title: "PPAR Course  - Haskell Introduction"
 author: [Stefan Sobek]
-date: "2020-04-15"
+date: "2020-05-12"
 subject: "Haskell"
 keywords: [Fontys, Haskell]
 lang: "en"
 titlepage: "true"
 logo: "images/fontyslogo.png"
 titlepage-rule-color: "400070"
+
 ---
 
 
