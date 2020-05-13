@@ -15,7 +15,7 @@ theme: white
 separator: <!-- s -->
 verticalSeparator: <!-- v -->
 revealOptions:
-  ## None - Fade - Slide - Convex - Concave - Zoom
+  # None - Fade - Slide - Convex - Concave - Zoom
   transition: 'slide'
   transition-speed: fast
   slideNumber: true
