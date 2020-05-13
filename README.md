@@ -10,15 +10,24 @@ titlepage: "true"
 logo: "images/fontyslogo.png"
 titlepage-rule-color: "400070"
 page-background : "images/fontyslogo-background.png"
+# reveal settings
 theme: white
 separator: <!-- s -->
 verticalSeparator: <!-- v -->
 revealOptions:
+  ## None - Fade - Slide - Convex - Concave - Zoom
   transition: 'slide'
-  center: false
-...
+  transition-speed: fast
+  slideNumber: true
+  history: true
+  progress: true
+  width: 1200
+  height: 768
 
-<!-- s -->
+  # center: false
+...
+---
+
 <!-- .slide: data-background="images/fontyslogo-background.png" -->
 # Haskell introduction course
 
@@ -244,7 +253,7 @@ reducedToOne = foldl1 (+) hundredIntegers -- 5050
   
 - **Everything is also available as PDF on Fontys connect**
 
-<!-- s -->
+<!-- v -->
 
 # Slideset
 
