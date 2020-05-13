@@ -1,29 +1,37 @@
 ---
-title: "PPAR Course  - Haskell Introduction"
+title: "PPAR Course"
+subtitle: "Haskell Introduction"
 author: [Stefan Sobek]
 date: "2020-05-12"
-subject: "Haskell"
+subject: "Haskell introduction"
 keywords: [Fontys, Haskell]
 lang: "en"
 titlepage: "true"
 logo: "images/fontyslogo.png"
 titlepage-rule-color: "400070"
 page-background : "images/fontyslogo-background.png"
+theme: white
+separator: <!-- s -->
+verticalSeparator: <!-- v -->
+revealOptions:
+  transition: 'slide'
+  center: false
 ...
----
+
+<!-- s -->
 <!-- .slide: data-background="images/fontyslogo-background.png" -->
 # Haskell introduction course
 
----
+<!-- s -->
 
 This Haskell Workshop is part of a course called PPAR - Programming Paradigms of Fontys University of Applied Sciences and is based on the the haskell workshop from two students who prepared it for the ESD - course in Informatics study programme at Fontys Venlo in 2018.
 
----
+<!-- s -->
 
 Thank you very much 
 [Marco Kull](https://github.com/MarcoKull) and [Jan Evers](https://github.com/Backend-Giraffe).
 
----
+<!-- s -->
 
 ## Organisational
 
@@ -31,7 +39,7 @@ Thank you very much
 
 The purpose of this workshop as part of the PPAR course is to give a brief introduction of Haskell by quickly **doing it**!
 
----
+<!-- s -->
 
 ### The main learning goals
 
@@ -40,13 +48,13 @@ The purpose of this workshop as part of the PPAR course is to give a brief intro
 - Know and use some basic syntax of haskell
 - Being able to create small haskell programs
 
----
+<!-- s -->
 
 ### Course structure
 
 The course is structured for 4 lecturing units where either short lecture or practical work on assignments will take place.
 
----
+<!-- s -->
 
 ### Assignments
 
@@ -56,35 +64,35 @@ The invitation link to this assignments will be send during the lecture via mail
 
 **NOTE** you have to do all the assignments, *doing means pushed into your individual github repository*, in order to pass the Haskell part of this course.
 
----
+<!-- s -->
 
 - **Assignment 1**
   - consists of **6** individual programming exercises you have to do, to get a bit familiar with haskell.
   - Will be provided in the first lecturing unit. (First week)
   - **Deadline**: 27th May 2020
 
----
+<!-- s -->
 
 - **Assignment 2**
   - consist of **1** individual programming assignment
   - Will be provided in the third lecturing unit. (Third week)
   - **Deadline**: 17th June 2020
   
----
+<!-- s -->
 
 # Principles of functional programming
 
----
+<!-- s -->
 
 > Functional programming is a programming paradigm a style of building the structure and elements of computer programs that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data -
 *Wikipedia*
 
----
+<!-- s -->
 <!-- .slide: data-background="images/haskell-intro.png" -->
 
 ![Haskell vs OO](images/haskell-intro.png)
 
----
+<!-- s -->
 
 ## Pure functions
 
@@ -93,20 +101,20 @@ The invitation link to this assignments will be send during the lecture via mail
 - What is then an impure function??? 
     - Imagine a java class with a field, where the field will be used in a calculation. This field was not passed as parameter to the function! The java class has a state which could have influence on the method.
 
----
+<!-- s -->
 
 ## No side-effects
 
 - No change of reference variables
 - e.g. in Java, passed by reference parameters!!! If you change the value of the passed parameter, you change the whole reference variable. 
   
----
+<!-- s -->
 
 ## Immutability
 
 - „unchanging over time or Unable to change“
   
----
+<!-- s -->
 
 # What is a function
 
@@ -114,20 +122,20 @@ The invitation link to this assignments will be send during the lecture via mail
 
 ![Inputs and Outputs](images/input-output1.png)
 
----
+<!-- s -->
 
 - Output (result) depends on the inputs (parameters)
 - Simple example: 
 
 ![Simple example](images/input-output2.png)
 
----
+<!-- s -->
 
 - Another example:
 
 ![Input and Output other example](images/input-output3.png)
 
----
+<!-- s -->
 
 # What is Haskell
 
@@ -141,17 +149,17 @@ The invitation link to this assignments will be send during the lecture via mail
   - Non-null
   - ...
   
----  
+<!-- s -->  
 
 ![images/lazy-when-smart.png](images/lazy-when-smart.png)
 
----
+<!-- s -->
 
 # To infinity and beyond
 
 ![images/inifinity1.png](images/inifinity1.png)
 
----
+<!-- s -->
 
 Infinite data structures cheat sheet:
 
@@ -174,16 +182,16 @@ Infinite data structures cheat sheet:
     x13 = take 3 [5, 10 ..]                         -- [5, 10, 15]
 ```
 
----
+<!-- s -->
 
 # Where are my loops
 
----
+<!-- s -->
 <!-- .slide: data-background="images/loops.png" -->
 
 ![loops](images/loops.png)
 
----
+<!-- s -->
 
 - Remember: imperative vs. declarative style
 - But how do I work with lists then?
@@ -197,7 +205,7 @@ Infinite data structures cheat sheet:
     - Well... removing some elements
 - Do you remember lambda calculus?
 
----
+<!-- s -->
 
 ```haskell
 {-
@@ -219,7 +227,7 @@ noTuplesAnymore = zipWith (+) hundredIntegers [1..1000]  -- [2,4,6,8,10,12,14...
 reducedToOne = foldl1 (+) hundredIntegers -- 5050
 ```
 
----
+<!-- s -->
 
 # Pure functions in Haskell
 
@@ -228,7 +236,7 @@ reducedToOne = foldl1 (+) hundredIntegers -- 5050
 - Anytime a function is called with the same parameter it returns the same value
   - *Output depends ONLY on parameters*
 
----
+<!-- s -->
 
 # Preparation
 
@@ -236,3 +244,16 @@ reducedToOne = foldl1 (+) hundredIntegers -- 5050
   
 - **Everything is also available as PDF on Fontys connect**
 
+<!-- s -->
+
+# Slideset
+
+If you want to create from this repository the slideset, do the following:
+
+```bash
+docker run --rm -p 1948:1948 -v `pwd`:/slides \ 
+webpronl/reveal-md:latest
+```
+
+Then open in your browser the URL 
+- [http://localhost:1948/README.md#/](http://localhost:1948/README.md#/)
