@@ -44,10 +44,12 @@ The invitation link to this assignments will be send during the lecture via mail
   - consists of **6** individual programming exercises you have to do, to get a bit familiar with haskell.
   - Will be provided in the first lecturing unit. (First week)
   - **Deadline**: 27th May 2020
+  - **Github classroom join URL**: [Haskell - Assignment 1](https://classroom.github.com/a/QYg8JMhi)
 - **Assignment 2**
   - consist of **1** individual programming assignment
   - Will be provided in the third lecturing unit. (Third week)
   - **Deadline**: 17th June 2020
+  - **Github classroom join URL**: will be announced later.
 
 # Principles of functional programming
 
