@@ -11,7 +11,7 @@ logo: "images/fontyslogo.png"
 titlepage-rule-color: "400070"
 page-background : "images/fontyslogo-background.png"
 # reveal settings
-theme: white
+theme: simple
 separator: <!-- s -->
 verticalSeparator: <!-- v -->
 revealOptions:
@@ -21,16 +21,20 @@ revealOptions:
   slideNumber: true
   history: true
   progress: true
-  width: 1200
-  height: 768
+  width: 1248
+  height: 800
+  parallaxBackgroundImage: 'images/fontys-parallax-all.jpg'
+  parallaxBackgroundSize: '2100px 900px'
+  #autoSlide: 4000
+  #loop: true
 
   # center: false
 ...
 ---
 
-<!-- .slide: data-background="images/fontyslogo-background.png" -->
-# Haskell introduction course
 
+# Haskell introduction course
+<!-- .slide: data-background="images/slides-headline-background.jpg" -->
 <!-- s -->
 
 This Haskell Workshop is part of a course called PPAR - Programming Paradigms of Fontys University of Applied Sciences and is based on the the haskell workshop from two students who prepared it for the ESD - course in Informatics study programme at Fontys Venlo in 2018.
@@ -49,6 +53,7 @@ Thank you very much
 The purpose of this workshop as part of the PPAR course is to give a brief introduction of Haskell by quickly **doing it**!
 
 <!-- s -->
+
 
 ### The main learning goals
 
@@ -99,7 +104,6 @@ The invitation link to this assignments will be send during the lecture via mail
 *Wikipedia*
 
 <!-- s -->
-<!-- .slide: data-background="images/haskell-intro.png" -->
 
 ![Haskell vs OO](images/haskell-intro.png)
 
@@ -150,15 +154,15 @@ The invitation link to this assignments will be send during the lecture via mail
 
 # What is Haskell
 
-- Purely functional programming language
-- You tell the computer what stuff is, rather than what to do (declarative style)
-- Features:
-  - Type inference
-  - Statically typed
-  - Lazy evaluation
-  - Immutability
-  - Non-null
-  - ...
+- Purely functional programming language<!-- .element: class="fragment" -->
+- You tell the computer what stuff is, rather than what to do (declarative style)<!-- .element: class="fragment" -->
+- Features:<!-- .element: class="fragment" -->
+  - Type inference<!-- .element: class="fragment" -->
+  - Statically typed<!-- .element: class="fragment" -->
+  - Lazy evaluation<!-- .element: class="fragment" -->
+  - Immutability<!-- .element: class="fragment" -->
+  - Non-null<!-- .element: class="fragment" -->
+  - ...<!-- .element: class="fragment" -->
   
 <!-- s -->  
 
@@ -198,7 +202,6 @@ Infinite data structures cheat sheet:
 # Where are my loops
 
 <!-- s -->
-<!-- .slide: data-background="images/loops.png" -->
 
 ![loops](images/loops.png)
 
