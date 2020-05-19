@@ -22,3 +22,10 @@ jobs:
         with:
           name: 02-ppar-haskell-preparation.pdf
           path: output
+      - uses: docker://dalibo/pandocker:latest
+        with: 
+          args: "basics.md -o output/ppar-haskell-basics.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
+      - uses: actions/upload-artifact@master
+        with:
+          name: 03-ppar-haskell-basics.pdf
+          path: output
