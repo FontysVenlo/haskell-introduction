@@ -7,41 +7,32 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - name: checkout repository
       - run: mkdir output
       - uses: docker://dalibo/pandocker:latest
-      - name: build introduction document
         with: 
           args: "README.md -o output/01-ppar-haskell-introduction.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
-      - name: upload introduction document
         with:
           name: 01-ppar-haskell-introduction.pdf
           path: output
       - uses: docker://dalibo/pandocker:latest
-      - name: build preparation document
         with: 
           args: "preparation.md -o output/02-ppar-haskell-preparation.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
-      - name: upload preparation document
         with:
           name: 02-ppar-haskell-preparation.pdf
           path: output
       - uses: docker://dalibo/pandocker:latest
-      - name: build basics document
         with: 
           args: "basics.md -o output/03-ppar-haskell-basics.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
-      - name: upload basics document
         with:
           name: 03-ppar-haskell-basics.pdf
           path: output
       - uses: docker://dalibo/pandocker:latest
-      - name: build assignment document
         with: 
           args: "basics.md -o output/04-ppar-haskell-assignment.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
-      - name: upload assignment document
         with:
           name: 04-ppar-haskell-assignment.pdf
           path: output
