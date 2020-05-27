@@ -2,7 +2,7 @@
 title: "PPAR Course"
 subtitle: "Haskell Introduction"
 author: [Stefan Sobek]
-date: "2020-05-12"
+date: "2020-05-27"
 subject: "Haskell introduction"
 keywords: [Fontys, Haskell]
 lang: "en"
@@ -80,19 +80,16 @@ The invitation link to this assignments will be send during the lecture via mail
 
 <!-- s -->
 
-- **Assignment 1**
-  - consists of **6** individual programming exercises you have to do, to get a bit familiar with haskell.
-  - Will be provided in the first lecturing unit. (First week)
-  - **Deadline**: 27th May 2020
-  - **Github classroom join URL**: [Haskell - Assignment 1](https://classroom.github.com/a/QYg8JMhi)
+#### Assignment 1
 
-<!-- s -->
+- consists of **6** individual programming exercises you have to do, to get a bit familiar with haskell.
+- Will be provided in the first lecturing unit. (First week)
+- **Deadline**: 17th June 2020
+- **Github classroom join URL**: [Haskell - Assignment 1](https://classroom.github.com/a/QYg8JMhi)
 
-- **Assignment 2**
-  - consist of **1** individual programming assignment
-  - Will be provided in the third lecturing unit. (Third week)
-  - **Deadline**: 17th June 2020
-  - **Github classroom join URL**: will be announced later.
+### Assessment
+
+How the assessment and the grading will be done, see [Assessment](assessment.md) page.
 
 <!-- s -->
 
