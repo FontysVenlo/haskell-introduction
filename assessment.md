@@ -52,8 +52,8 @@ revealOptions:
 The Learning Goals are the baseline. 
 
 Learning Goal | Description
-------------- | ---
-**LG1**       | **use** major programming paradigms adequately, **describe** their essential characteristics and differences, and **select** an appropriate paradigm according to a problem at hand.
+--- | ---
+**LG1**| **use** major programming paradigms adequately, **describe** their essential characteristics and differences, and **select** an appropriate paradigm according to a problem at hand.
 
 <!-- s -->
 
