@@ -31,8 +31,8 @@ jobs:
           path: output
       - uses: docker://dalibo/pandocker:latest
         with: 
-          args: "basics.md -o output/04-ppar-haskell-assignment.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
+          args: "assessment.md -o output/04-ppar-haskell-assessment.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
         with:
-          name: 04-ppar-haskell-assignment.pdf
+          name: 04-ppar-haskell-assessment.pdf
           path: output
