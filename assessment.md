@@ -1,7 +1,7 @@
 ---
 title: "PPAR Course - Haskell - Preparation"
 author: [Stefan Sobek]
-date: "2020-05-12"
+date: "2020-05-27"
 subject: "Setup your haskell development environment "
 keywords: [Haskell, Fontys]
 lang: "en"
@@ -96,6 +96,8 @@ Learning Goal | Description
 - Being able to make a list comprehension example<!-- .element: class="fragment" -->
 - Know how to use higher order functions - explain the usage and how they work and when to apply<!-- .element: class="fragment" -->
 - Be able to make own data types with Algebraic Data Types<!-- .element: class="fragment" -->
+
+**Note** that all will be done based on your assignment results, thus your code. Prepare your environment for the assessment so that you can show what you did. 
 
 <!-- s -->
 
