@@ -1,8 +1,8 @@
 ---
-title: "PPAR Course - Haskell - Preparation"
+title: "PPAR Course - Haskell - Assessment"
 author: [Stefan Sobek]
 date: "2020-05-27"
-subject: "Setup your haskell development environment "
+subject: "Assessment - end of semester information "
 keywords: [Haskell, Fontys]
 lang: "en"
 titlepage: "true"
