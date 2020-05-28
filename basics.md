@@ -24,7 +24,7 @@ revealOptions:
   width: 1248
   height: 800
   parallaxBackgroundImage: 'images/fontys-parallax-all.jpg'
-  parallaxBackgroundSize: '2100px 900px'
+  parallaxBackgroundSize: '2100px 1024px'
   #autoSlide: 4000
   #loop: true
 

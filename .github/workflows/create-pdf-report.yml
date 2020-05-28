@@ -10,22 +10,29 @@ jobs:
       - run: mkdir output
       - uses: docker://dalibo/pandocker:latest
         with: 
-          args: "README.md -o output/ppar-haskell-introduction.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
+          args: "README.md -o output/01-ppar-haskell-introduction.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
         with:
           name: 01-ppar-haskell-introduction.pdf
           path: output
       - uses: docker://dalibo/pandocker:latest
         with: 
-          args: "preparation.md -o output/ppar-haskell-preparation.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
+          args: "preparation.md -o output/02-ppar-haskell-preparation.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
         with:
           name: 02-ppar-haskell-preparation.pdf
           path: output
       - uses: docker://dalibo/pandocker:latest
         with: 
-          args: "basics.md -o output/ppar-haskell-basics.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
+          args: "basics.md -o output/03-ppar-haskell-basics.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
         with:
           name: 03-ppar-haskell-basics.pdf
+          path: output
+      - uses: docker://dalibo/pandocker:latest
+        with: 
+          args: "assessment.md -o output/04-ppar-haskell-assessment.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
+      - uses: actions/upload-artifact@master
+        with:
+          name: 04-ppar-haskell-assessment.pdf
           path: output

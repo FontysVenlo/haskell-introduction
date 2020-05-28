@@ -98,7 +98,7 @@ This section describes how to create a simple "Hello World!" example to make sur
 ### Create a file named hello.hs containing the programm code:
 
 nerd version:
-   
+
 ```bash
 echo "hello=print(\"Hello ${USER}, thank you for your good preparation.\")" > hello.hs
 ```
