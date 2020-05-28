@@ -72,11 +72,11 @@ The course is structured for 4 lecturing units where either short lecture or pra
 
 ### Assignments
 
-There will be **two** main Assignments which must be delivered into an individual Github repository provided by github classroom.
+There will be **one** main Assignment which must be delivered into an individual Github repository provided by github classroom.
 
 The invitation link to this assignments will be send during the lecture via mail and as channel-message.
 
-**NOTE** you have to do all the assignments, *doing means pushed into your individual github repository*, in order to pass the Haskell part of this course.
+**NOTE** you have to do all as *mandatory* marked assignments, *doing means pushed into your individual github repository*, in order to pass the Haskell part of this course.
 
 <!-- s -->
 
