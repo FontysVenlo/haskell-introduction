@@ -2,7 +2,7 @@
 title: "PPAR Course - Haskell - Assessment"
 subtitle: "Assessment - end of semester information"
 author: [Stefan Sobek]
-date: "2020-05-27"
+date: "2020-05-28"
 subject: "Assessment - end of semester information "
 keywords: [Haskell, Fontys]
 lang: "en"
@@ -60,7 +60,7 @@ Learning Goal | Description
 
 ## What can you expect
 
-- You will be assessed on the assignments task_0 - task_5, where task_5 is optional.<!-- .element: class="fragment" -->
+- You will be assessed on the assignments task_0 - task_5, where task_5 is optional for passing.<!-- .element: class="fragment" -->
 - You must be able to show your code online (live).<!-- .element: class="fragment" -->
 - You can expect questions on your written code to explain what, how and why you did it.<!-- .element: class="fragment" -->
 - You can also expect questions on content provided while talking about your assignments:<!-- .element: class="fragment" -->

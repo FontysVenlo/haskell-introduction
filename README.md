@@ -2,7 +2,7 @@
 title: "PPAR Course"
 subtitle: "Haskell Introduction"
 author: [Stefan Sobek]
-date: "2020-05-27"
+date: "2020-05-28"
 subject: "Haskell introduction"
 keywords: [Fontys, Haskell]
 lang: "en"
@@ -72,11 +72,11 @@ The course is structured for 4 lecturing units where either short lecture or pra
 
 ### Assignments
 
-There will be **two** main Assignments which must be delivered into an individual Github repository provided by github classroom.
+There will be **one** main Assignments which must be delivered into an individual Github repository provided by github classroom.
 
 The invitation link to this assignments will be send during the lecture via mail and as channel-message.
 
-**NOTE** you have to do all the assignments, *doing means pushed into your individual github repository*, in order to pass the Haskell part of this course.
+**NOTE** you have to do all as *mandadory* marked assignments, *doing means pushed into your individual github repository*, in order to pass the Haskell part of this course.
 
 <!-- s -->
 
@@ -118,7 +118,7 @@ How the assessment and the grading will be done, see [Assessment](assessment.md)
 ## No side-effects
 
 - No change of reference variables
-- e.g. in Java, passed by reference parameters!!! If you change the value of the passed parameter, you change the whole reference variable. 
+- e.g. in Java, passed by reference parameters!!! If you change the value of the passed parameter, you change the whole reference variable.
   
 <!-- s -->
 
